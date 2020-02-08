@@ -32,7 +32,7 @@ def snmap(im, noise):
 
     sn = im / noise
 
-    fits.writeto('snmap.fits', sn)
+    fits.writeto('snmap.fits', sn, overwrite=True)
 
 if __name__ == "__main__":
 
@@ -58,6 +58,6 @@ if __name__ == "__main__":
    
    noise = noise_interp(im, sep, oned_noise)
  
-   fits.writeto('noise_map.fits', noise)
+   fits.writeto('noise_map.fits', noise, overwrite=True)
  
    snmap(im, noise)
