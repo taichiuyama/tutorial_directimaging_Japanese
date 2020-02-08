@@ -1,2 +1,2 @@
 # Advanced_DI
-check ADI_pyKLIP.py for the text & codes
+check ADI_pyKLIP.ipynbfor the text & codes
